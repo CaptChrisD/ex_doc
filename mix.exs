@@ -6,6 +6,7 @@ defmodule ExDoc.Mixfile do
      version:    "0.7.2",
      elixir:     "~> 1.0",
      deps:       deps,
+     escript: [main_module: ExDoc.CLI, name: "exdoc", path: "/usr/local/bin/exdoc"],
      aliases:    aliases,
      source_url: "https://github.com/elixir-lang/ex_doc/"]
   end
